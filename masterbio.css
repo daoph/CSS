@@ -1,0 +1,13 @@
+
+
+body{font-family: impact, sans-serif; color: purple; font-size: 22pt}
+
+li{font-size: .7em;}
+
+div{border: 10px solid black; margin: 0px 1100px 0px 0px; padding: 10px}
+
+#right {color: green; margin: 0px 500px 100px 600px; border: 10px dashed red}
+
+
+#name {color: lightblue}
+.number {font-size: 1.5em;}

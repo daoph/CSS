@@ -1,0 +1,10 @@
+body{
+font-family: tahoma, arial, sans-serif;
+font-size: 18pt;
+color: grey;
+/*font-weight: bold;*/
+}
+
+.makebold {color: orange;}
+
+.makeitalic {font-style: italic;}
