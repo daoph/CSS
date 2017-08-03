@@ -1,36 +1,48 @@
 
-body div{font-family: arial, sans-serif; color: purple; font-size: 22pt}
+body div{font-family: arial, sans-serif; 
+		 color: purple; 
+		 font-size: 22pt}
 
-body{font-family: arial, sans-serif; color: purple; font-size: 14pt}
+body{font-family: arial, sans-serif; 
+	 color: cornflowerblue; font-size: 14pt}
 
 li{font-size: .7em;}
 
 
 ul{list-style-type: none}
 
-#right {color: green; margin: 0px 900px 0px 0px; border: 10px dashed red}
+#right {color: green; 
+	    margin: 0px 900px 0px 0px; 
+	    border: 10px dashed red}
 
-div#menu {color: white; margin: 0px 10px 0px 0px; padding: 1px 1px; border: 5px solid purple; 
-	background-color: #333; float: center; text-align: left;}
-
-.makeitalic {font-style: italic;}
-
-div#menu ul li {display: inline}
-
-div#menu li a:hover{color: white}
-
-#name {color: lightblue}
-.number {font-size: 1.5em;}
-
-/*<!--This section below specifies the link style and pseudo styles-->*/
+div#menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: #333;
+	overflow: hidden;
+}
+div#menu li {
+	float: left;
+}
+div#menu li a {
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+div#menu li a:hover {
+	background-color: #111;
+}
 
 a:link{color: red; text-decoration: none}
 a:hover{color: green}
 a:visited{color: yellow}
-a:active{color: white;}
+a:active{color:white;}
 
 
-/*<!--This section below is the style to my friend's list-->*/
+
+  <!--style to friend's list-->
 
 tbody {color: blue}
 thead {font-style: impact; font-weight: bold; color: black}
